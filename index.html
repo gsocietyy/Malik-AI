@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malik AI Bot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <script src="https://use.fontawesome.com/dfba0bb4d8.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-content">
+                <svg class="back-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                <h1>Malik AI Bot</h1>
+            </div>
+        </div>
+
+        <div class="chat-messages" id="chat-messages">
+            <div class="date-divider" id="date-time"></div>
+        </div>
+
+        <div class="input-container">
+            <button class="attachment-btn">
+                <i class="fa fa-paperclip fa-2x" aria-hidden="true"></i>
+            </button>
+            <input type="text" id="message-input" placeholder="Type a message">
+            <button class="send-btn" id="send-button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
